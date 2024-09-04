@@ -2,3 +2,12 @@ name: LatestLogs
 version: '${project.version}'
 main: si.f5.actedsauce.latestlogs.LatestLogs
 api-version: '1.20'
+commands:
+  log:
+    description: Show log.
+    permission: latestlogs.commands.log
+    permission-message: You don't have permission enough to execute this command!
+permissions:
+  latestlogs.commands.log:
+    description: Required to see log.
+    default: op

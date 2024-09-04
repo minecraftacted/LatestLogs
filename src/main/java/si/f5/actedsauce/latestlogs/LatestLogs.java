@@ -7,7 +7,7 @@ public final class LatestLogs extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-
+        getCommand("log").setExecutor(new LogCommand());
     }
 
     @Override
