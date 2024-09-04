@@ -1,0 +1,4 @@
+name: LatestLogs
+version: '${project.version}'
+main: si.f5.actedsauce.latestlogs.LatestLogs
+api-version: '1.20'
